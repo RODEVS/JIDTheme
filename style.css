@@ -1,0 +1,277 @@
+/*
+	Theme Name: JIDTheme
+	Theme URI: http://www.jid.org
+	Description: This theme has been designed, adapted and developed for the IADB.
+	Author: Rodrigo Alexis Rodriguez Brito
+	Author URI: http://www.rodevs.com
+	Version: 2.0
+*/
+
+.navbar {
+	width: 100%;
+	max-width: 100%;
+	padding: 0px;
+}
+
+.container-secondary {
+	background-color: rgba(20, 100, 167, 1);
+}
+
+.bg-gray {
+	background-color: rgba(80, 80, 80, 1);
+}
+
+.navbar-items {
+	background-color: rgba(43, 108, 163, 1);
+
+}
+
+.navbar-items li {
+	background-color: rgba(20, 100, 167, 1);
+	color: #FFFFFF;
+}
+
+.navbar-link {
+	color: rgba(255, 255, 255, 0.7);
+}
+
+.navbar-items li ul li {
+	background-color: rgba(20, 100, 167, 1);
+}
+
+.header-widget-content {
+	padding-top: 50px;
+}
+
+.container-header {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.navbar-nav {
+    display:table;
+    width:100%;
+    margin: 0;
+}
+.navbar-nav > li {
+    float:none;
+    display:table-cell;
+    text-align:center;
+}
+
+.nav > li > a:hover{
+    background-color: #00527b;
+}
+
+/*make the menu sub-menu items drop down on mouse hover */
+
+.nav > li > ul > li > a:hover {
+	background-color: #00527b;
+}
+
+ul.nav li.dropdown:hover > ul.dropdown-menu{
+    display: block;
+    margin: 0;
+    /* border-color: #FFF; */
+}
+
+
+.nav-item a:hover {
+    color: rgba(255, 255, 255, 1) !important;
+    cursor: pointer;
+}
+
+.nav-item a {
+    color: rgba(255, 255, 255, 1) !important;
+    cursor: pointer;
+}
+
+.container-homepage {
+	padding-top: 10px;
+}
+
+.main-widget-content {
+	text-align: justify;
+}
+
+.main-widget-content a {
+	color: #675D5D;
+}
+
+.main-widget-content ul{
+	font-family: "Times New Roman", Times, serif;
+	font-style: normal;
+	font-size: 14px;
+	list-style-type: none;
+	margin: 0px;
+	padding: 4px;
+}
+
+.main-widget-content ul li {
+	border-bottom: 1px solid #ccc;
+	margin-top: 8px;
+}
+
+.main-widget-content ul li a {
+	color: rgba(56, 56, 56, 1);
+}
+
+.main-widget-content u li:hover {
+	
+}
+
+.main-widget-content li:last-child {
+	border: none;
+}
+
+.main-widget-title {
+	border-bottom: solid 1px #232323;
+	padding-top: 8px; 
+	text-transform: uppercase;
+	font-size: 1.5rem;
+	color: rgba(0, 0, 0, 0.6);
+}
+
+.main-widget-title h3 {
+	text-transform: uppercase;
+}
+
+.hr-sidebar-style {
+	width: 100%;
+	color: rgba(128, 140, 115, 1);
+}
+
+.footer {
+	border-top: solid 1px #181818;
+	padding-top: 36px;
+	background-color: rgba(20, 100, 167, 1);
+  	position: relative;
+  	bottom: 0;
+  	width: 100%;
+}
+
+.footer-font-style {
+	border-top: solid 1px #7B7B7B;
+	color: #292929;
+	font-size: 12px;
+}
+
+.thumbnails .col-md-12 {
+	max-height: 400px;
+}
+
+.thumbnails .col-md-3 img {
+	max-height: 200px;
+}
+
+.col-post-style {
+	line-height: 1.2;
+	text-align: justify;
+	border: solid 1px #FFF;
+	display: block;
+	background-color: #F3F3F3;
+}
+
+.col-post-style a:hover {
+	text-decoration: none;
+}
+
+.main-featured-post {
+	font-family: "Times New Roman", Times, serif;
+	font-style: normal;
+	font-size: 14px;
+	line-height: 1.2;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: justify;
+	display: block;
+	background-color: #E4E4E4;
+	padding-bottom: 1rem;
+	padding-top: 1rem;
+	margin-bottom: 1rem;
+}
+
+.main-featured-p {
+	font-family: "Times New Roman", Times, serif;
+	font-style: normal;
+	font-size: 20px;
+}
+
+.row-main-posts {
+	font-family: "Times New Roman", Times, serif;
+	font-style: normal;
+	font-size: 14px;
+	padding-bottom: 4px;
+}
+
+.title-thumbnails {
+	color: #181818;
+	padding-top: 4px; 
+}
+
+.title-page {
+	color: #181818;
+	padding-top: 4px; 
+	text-transform: uppercase;
+}
+
+.title-thumbnails:hover {
+	color: #978D8D;
+	text-decoration: none;
+}
+
+.single-post-style {
+	max-width: 100%;
+	min-width: 100%;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	padding-right: 15%;
+	padding-left: 15%;
+	margin-bottom: 4px;
+	border: solid 1px #FFF;
+	display: block;
+	background-color: #F3F3F3;
+}
+
+
+/* Will be used for post single.php and page.php style. */
+.single-post-style-text {
+	
+}
+
+.navigation {
+	text-align: center;
+	display: block;
+
+}
+
+.comments {
+	display: block;
+	background-color: #EAEAEA;
+	margin-right: 25%;
+	text-align: justify;
+}
+
+.footer-widget-content {
+	font-family: "Times New Roman", Times, serif;
+	font-style: normal;
+	font-size: 14px;
+	padding-bottom: 2rem;
+}
+
+.footer-widget-content a {
+	color: #F1F1F1;
+	text-decoration-line: none;
+}
+
+.footer-widget-content a:hover {
+	color: #978D8D;
+}
+
+.footer-widget-title {
+	border-bottom: solid 1px #232323;
+	padding-top: 4px; 
+	text-transform: uppercase;
+	font-size: 1.2rem;
+	color: #FFF;
+}
