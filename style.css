@@ -275,3 +275,32 @@ ul.nav li.dropdown:hover > ul.dropdown-menu{
 	font-size: 1.2rem;
 	color: #FFF;
 }
+
+.comment-list {
+
+}
+
+.comments-area {
+	border-top: solid 1px #585858;
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
+.comments-area ol li {
+	display: block;
+	background-color: #FFF;
+	margin-bottom: 2px;
+	border-radius: 2px;
+}
+
+.comments-area a {
+	color: #909090;
+}
+
+.comments-area a:hover {
+	color: #000;
+}
+input.text {
+	border: 1px solid #222;
+	background-color: #FFF;
+}

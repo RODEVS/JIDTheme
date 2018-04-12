@@ -2,6 +2,7 @@
 
 	/*
 	*	Define the stylesheets that are going to be used in the theme.
+	*   Includes bootstrap.
 	*/
 	function JIDTheme_style() {
 		wp_enqueue_style("bootstrap-css", get_template_directory_uri()."/bs/css/bootstrap.min.css");

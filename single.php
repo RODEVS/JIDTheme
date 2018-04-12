@@ -23,19 +23,21 @@ get_header(); ?>
             <div class="single-post-style single-post-style-text"><?php the_content(); ?></div>
  
         <?php
+            // If comments are open or we have at least one comment, load up the comment template
+            if ( comments_open() || get_comments_number() ) :
+                comments_template();
+            endif;
+        ?>
+
+        <?php
         // End the loop.
         endwhile;
         ?>
 
-        <?php
-        // If comments are open or we have at least one comment, load up the comment template.
-        if ( comments_open() || get_comments_number() ) :
-            comments_template();
-        endif;
-        ?>
-
         </div>
         </main><!-- .site-main -->
+
+
     </div><!-- .content-area -->
  
 <?php get_footer(); ?>

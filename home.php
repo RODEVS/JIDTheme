@@ -14,8 +14,19 @@
 				 ?>
 				</div>
 			</div>
+
+			<div class="row">
+				<div class="col-md-12">
+					<h3><?php 
+					//Print the little header just before the posts are displayed.
+					printf(_e("Noticias", "JIDTheme")); 
+					?></h3><hr/>
+				</div>
+			</div>
+
 			<?php
-				$count = (int)1; //Counter for post initialized in one. Set in 1  avoid featured post and set 0 to enable it.
+				$count = (int)1; 
+				//Counter for post initialized in one. Set in 1 wil disable featured post and set 0 will enable it.
 				while (have_posts()) : the_post();
 				if ($count == 0) {
 			?>
@@ -61,6 +72,9 @@
 				}
 			?>
  			<?php endwhile; ?>
+ 			<div class="readmore">
+ 				<a href="/index.php/category/noticias/">
+ 			</div>
 		</div>
 	</div>
 </div>

@@ -1,5 +1,4 @@
 <?php get_header(); ?>
-
 <!-- Posts -->
 <div class="container container-homepage">
 	<div class="row">
@@ -25,7 +24,6 @@
 			<?php
 				}
 			?>
-
 			<?php
 				if ($count == 1) {
 					echo "<div class='row row-main-posts'>";
@@ -53,8 +51,20 @@
 				}
 			?>
  			<?php endwhile; ?>
- 			<div class="navigation"><p><?php posts_nav_link('&#8734;','<<','>>'); ?></p></div>
+
+ 		<div class="row">
+ 			<p class="col-md-12">
+ 			<hr/>
+ 				<?php 
+ 					posts_nav_link('|', 
+ 								"<< Pagina anterior ",
+ 								" Pagina siguiente >>"
+ 							); 
+ 				?>
+ 			</p>
+ 		</div>
 		</div>
+		
 	</div>
 </div>
 <?php get_footer(); ?>

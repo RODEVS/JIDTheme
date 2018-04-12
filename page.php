@@ -16,7 +16,15 @@ get_header(); ?>
                 <h2 class="title-page"><?php the_title(); ?></h2>
             </center>
             <div class="single-post-style single-post-style-text"><?php the_content(); ?></div>
-        <?php
+            
+            <?php
+                // If comments are open or we have at least one comment, load up the comment template
+                if ( comments_open() || get_comments_number() ) :
+                    comments_template();
+                endif;
+            ?>
+
+        <?php       
         // End the loop.
         endwhile;
         ?>
